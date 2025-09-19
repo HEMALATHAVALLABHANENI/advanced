@@ -1,0 +1,8 @@
+#to print product of two numbers with test cases with test cases
+m=int(input("enter value of m:"))
+n=int(input("enter value of n:"))
+product=m*n
+if(m<n):
+    print("the product is :",product)
+elif(m>n):
+    print("display proper message")
