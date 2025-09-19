@@ -1,0 +1,9 @@
+a=int(input("enter value of m:"))
+b=int(input("enter value of n:"))
+m3=a*a*a
+n3=b*b*b 
+sum=m3+n3
+if(a<b):
+    print("sum:",m3+n3)
+elif(a>b):
+    print("display proper message")
