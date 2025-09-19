@@ -1,0 +1,13 @@
+#to print the product of even numbers by two input numbers with test cases
+
+m=int(input("enter value of m:"))
+n=int(input("enter value of n:"))
+product=m*n
+if(m/2==0):
+    print("the product is :",product)
+elif(n/2==0):
+    print("the product is :",product)
+elif(m<n):
+     print("the product is :",product)
+elif(m>n):
+    print("display proper message")
